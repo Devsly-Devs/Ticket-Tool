@@ -1,6 +1,6 @@
 {
     "prefix":"-",
-    "token":"NzgyOTgzNTU4MTcxMTk3NDYw.X8UIQw.ojXpkMyVn9jbpHLmWJihS2VX97E",
-    "url":"mongodb://localhost:27017",
-    "dbName":"spotiz"
+    "token":"bot-token",
+    "url":"mongo-db-url",
+    "dbName":"db-name"
 }
