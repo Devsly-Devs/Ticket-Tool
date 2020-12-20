@@ -9,7 +9,7 @@ function ticketMessage(channel,user){
         .addField('Ticket Owner',`<@${user.id}>`,true)
         .addField('Ticket Name',`${channel.name}`,true)
         .setTimestamp()
-        .setFooter('Spotiz.xyz™  - Type $help 🎵','https://cdn.discordapp.com/avatars/774628881910202378/548e0caa288842504514596856039e9c.png?size=256');
+        .setFooter('White2001#0530™  - Type $help 🎵','https://cdn.discordapp.com/avatars/774628881910202378/548e0caa288842504514596856039e9c.png?size=256');
 }
 
 function transcriptMessage(){
@@ -29,7 +29,7 @@ function Wrong(auID){
         .setColor('#c70039')
         .setDescription(`<@${auID}> Something Went wrong. Please Try again`)
         .setTimestamp()
-        .setFooter('Spotiz.xyz™  - Type $help 🎵','https://cdn.discordapp.com/avatars/774628881910202378/548e0caa288842504514596856039e9c.png?size=256');
+        .setFooter('White2001#0530™  - Type $help 🎵','https://cdn.discordapp.com/avatars/774628881910202378/548e0caa288842504514596856039e9c.png?size=256');
 }
 
 function create_transcript(message,user){
@@ -46,7 +46,7 @@ function create_transcript(message,user){
                                 .addField('Ticket Owner',`<@${user.id}>`,true)
                                 .addField('Ticket Name',`${message.channel.name}`,true)
                                 .setTimestamp()
-                                .setFooter('Spotiz.xyz™  - Type $help 🎵','https://cdn.discordapp.com/avatars/774628881910202378/548e0caa288842504514596856039e9c.png?size=256');
+                                .setFooter('White2001#0530™  - Type $help 🎵','https://cdn.discordapp.com/avatars/774628881910202378/548e0caa288842504514596856039e9c.png?size=256');
 
                             webhookClient.send({
                                 username: 'Transcript',

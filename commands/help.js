@@ -14,7 +14,7 @@ function menu(){
                         \`${prefix}setup\` - **Helps to setup the server and in DB**\n
                         \`${prefix}transcript\` - **Saves the order transcript through webhook**`)
         .setTimestamp()
-        .setFooter('Spotiz.xyz™  - Type $help 🎵','https://cdn.discordapp.com/avatars/774628881910202378/548e0caa288842504514596856039e9c.png?size=256');
+        .setFooter('White2001#0530™  - Type $help 🎵','https://cdn.discordapp.com/avatars/774628881910202378/548e0caa288842504514596856039e9c.png?size=256');
 }
 
 module.exports = {

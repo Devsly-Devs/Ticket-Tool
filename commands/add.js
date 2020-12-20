@@ -6,7 +6,7 @@ function noArgs(id){
         .setColor('#ff4b5c')
         .setDescription(`<@${id}> You didn't specified any argument`)
         .setTimestamp()
-        .setFooter('Spotiz.xyz™  - Type $help 🎵','https://cdn.discordapp.com/avatars/774628881910202378/548e0caa288842504514596856039e9c.png?size=256');
+        .setFooter('White2001#0530™  - Type $help 🎵','https://cdn.discordapp.com/avatars/774628881910202378/548e0caa288842504514596856039e9c.png?size=256');
 }
 
 function added(id){
@@ -14,7 +14,7 @@ function added(id){
         .setColor('#bbf1c8')
         .setDescription(`<@${id}> Added to Ticket`)
         .setTimestamp()
-        .setFooter('Spotiz.xyz™  - Type $help 🎵','https://cdn.discordapp.com/avatars/774628881910202378/548e0caa288842504514596856039e9c.png?size=256');
+        .setFooter('White2001#0530™  - Type $help 🎵','https://cdn.discordapp.com/avatars/774628881910202378/548e0caa288842504514596856039e9c.png?size=256');
 }
 
 function author(client,args){

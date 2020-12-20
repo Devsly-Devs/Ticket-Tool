@@ -7,7 +7,7 @@ function ticketMessage(id){
         .setTitle('**Resell Ticket**')
         .setDescription(`Hello <@${id}> ,\nPlease post your questions here. One of our support member will be with you shortly`)
         .setTimestamp()
-        .setFooter('Spotiz.xyz™  - Type $help 🎵','https://cdn.discordapp.com/avatars/774628881910202378/548e0caa288842504514596856039e9c.png?size=256');
+        .setFooter('White2001#0530™  - Type $help 🎵','https://cdn.discordapp.com/avatars/774628881910202378/548e0caa288842504514596856039e9c.png?size=256');
 }
 
 function SpamTicket(auID,chID){
@@ -15,7 +15,7 @@ function SpamTicket(auID,chID){
         .setColor('#28df99')
         .setDescription(`<@${auID}> You've Already a Ticket opened at <#${chID}>`)
         .setTimestamp()
-        .setFooter('Spotiz.xyz™  - Type $help 🎵','https://cdn.discordapp.com/avatars/774628881910202378/548e0caa288842504514596856039e9c.png?size=256');
+        .setFooter('White2001#0530™  - Type $help 🎵','https://cdn.discordapp.com/avatars/774628881910202378/548e0caa288842504514596856039e9c.png?size=256');
 }
 
 function resell_ticket(message,user){

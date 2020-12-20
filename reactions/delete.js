@@ -8,7 +8,7 @@ function ticketMessage(){
         .setTitle('**Ticket Delete**')
         .setDescription(`This ticket will be deleted in 5 seconds`)
         .setTimestamp()
-        .setFooter('Spotiz.xyz™  - Type $help 🎵','https://cdn.discordapp.com/avatars/774628881910202378/548e0caa288842504514596856039e9c.png?size=256');
+        .setFooter('White2001#0530™  - Type $help 🎵','https://cdn.discordapp.com/avatars/774628881910202378/548e0caa288842504514596856039e9c.png?size=256');
 }
 
 function Wrong(auID){
@@ -16,7 +16,7 @@ function Wrong(auID){
         .setColor('#28df99')
         .setDescription(`<@${auID}> Something Went wrong. Please Try again`)
         .setTimestamp()
-        .setFooter('Spotiz.xyz™  - Type $help 🎵','https://cdn.discordapp.com/avatars/774628881910202378/548e0caa288842504514596856039e9c.png?size=256');
+        .setFooter('White2001#0530™  - Type $help 🎵','https://cdn.discordapp.com/avatars/774628881910202378/548e0caa288842504514596856039e9c.png?size=256');
 }
 
 function ticket_delete(message,user){

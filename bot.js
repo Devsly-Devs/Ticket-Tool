@@ -26,7 +26,7 @@ const cooldowns = new Discord.Collection(); // Cooldowns collection
 
 /*Invokes When BOT is ready to do tasks*/ 
 client.once('ready', () => {
-    console.log('Spotiz Tickets is Ready!');
+    console.log('Ticket Tool is Ready!');
 });
 
 client.on('messageReactionAdd',async (messageReaction,user)=>{
@@ -36,7 +36,7 @@ client.on('messageReactionAdd',async (messageReaction,user)=>{
             .setColor('#28df99')
             .setDescription(`<@${auID}> You've Already a Ticket opened at <#${chID}>`)
             .setTimestamp()
-            .setFooter('Spotiz.xyz™  - Type $help 🎵','https://cdn.discordapp.com/avatars/774628881910202378/548e0caa288842504514596856039e9c.png?size=256');
+            .setFooter('White2001#0530™  - Type $help 🎵','https://cdn.discordapp.com/avatars/774628881910202378/548e0caa288842504514596856039e9c.png?size=256');
     }
 
     function ticketClosed(auID){
@@ -44,7 +44,7 @@ client.on('messageReactionAdd',async (messageReaction,user)=>{
             .setColor('#28df99')
             .setDescription(`Order Closed by <@${auID}>`)
             .setTimestamp()
-            .setFooter('Spotiz.xyz™  - Type $help 🎵','https://cdn.discordapp.com/avatars/774628881910202378/548e0caa288842504514596856039e9c.png?size=256');
+            .setFooter('White2001#0530™  - Type $help 🎵','https://cdn.discordapp.com/avatars/774628881910202378/548e0caa288842504514596856039e9c.png?size=256');
     }
 
     function ticketDeletePopup(){
@@ -52,7 +52,7 @@ client.on('messageReactionAdd',async (messageReaction,user)=>{
             .setColor('#ff4b5c')
             .setDescription(`This order will be deleted in 5 seconds`)
             .setTimestamp()
-            .setFooter('Spotiz.xyz™  - Type $help 🎵','https://cdn.discordapp.com/avatars/774628881910202378/548e0caa288842504514596856039e9c.png?size=256');
+            .setFooter('White2001#0530™  - Type $help 🎵','https://cdn.discordapp.com/avatars/774628881910202378/548e0caa288842504514596856039e9c.png?size=256');
     }
 
     function noAdmin_close(id){
@@ -60,7 +60,7 @@ client.on('messageReactionAdd',async (messageReaction,user)=>{
             .setColor('#ff4b5c')
             .setDescription(`<@${id}> You're not a Admin. You can't Close Ticket`)
             .setTimestamp()
-            .setFooter('Spotiz.xyz™  - Type $help 🎵','https://cdn.discordapp.com/avatars/774628881910202378/548e0caa288842504514596856039e9c.png?size=256');
+            .setFooter('White2001#0530™  - Type $help 🎵','https://cdn.discordapp.com/avatars/774628881910202378/548e0caa288842504514596856039e9c.png?size=256');
     }
 
     function noAdmin_delete(id){
@@ -68,7 +68,7 @@ client.on('messageReactionAdd',async (messageReaction,user)=>{
             .setColor('#ff4b5c')
             .setDescription(`<@${id}> You're not a Admin. You can't Close Ticket`)
             .setTimestamp()
-            .setFooter('Spotiz.xyz™  - Type $help 🎵','https://cdn.discordapp.com/avatars/774628881910202378/548e0caa288842504514596856039e9c.png?size=256');
+            .setFooter('White2001#0530™  - Type $help 🎵','https://cdn.discordapp.com/avatars/774628881910202378/548e0caa288842504514596856039e9c.png?size=256');
     }
 
     if (messageReaction.partial) {

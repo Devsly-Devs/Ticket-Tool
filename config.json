@@ -1,5 +1,5 @@
 {
-    "prefix":"-",
+    "prefix":"$",
     "token":"bot-token",
     "url":"mongo-db-url",
     "dbName":"db-name"

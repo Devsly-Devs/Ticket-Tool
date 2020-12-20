@@ -6,7 +6,7 @@ function noAdmin(id){
         .setColor('#ff4b5c')
         .setDescription(`<@${id}> You're not a Admin`)
         .setTimestamp()
-        .setFooter('Spotiz.xyz™  - Type $help 🎵','https://cdn.discordapp.com/avatars/774628881910202378/548e0caa288842504514596856039e9c.png?size=256');
+        .setFooter('White2001#0530™  - Type $help 🎵','https://cdn.discordapp.com/avatars/774628881910202378/548e0caa288842504514596856039e9c.png?size=256');
 }
 
 function alreadyDone(id){
@@ -14,7 +14,7 @@ function alreadyDone(id){
         .setColor('#ff4b5c')
         .setDescription(`<@${id}> This server has already have panel. You can't create another one`)
         .setTimestamp()
-        .setFooter('Spotiz.xyz™  - Type $help 🎵','https://cdn.discordapp.com/avatars/774628881910202378/548e0caa288842504514596856039e9c.png?size=256');
+        .setFooter('White2001#0530™  - Type $help 🎵','https://cdn.discordapp.com/avatars/774628881910202378/548e0caa288842504514596856039e9c.png?size=256');
 }
 
 function panelMenu(){
@@ -29,7 +29,7 @@ function panelMenu(){
         .addField('\u200B','\u200B',true)
         .addField('Kicked From Plan','🛠️\n',true)
         .setTimestamp()
-        .setFooter('Spotiz.xyz™  - Type $help 🎵','https://cdn.discordapp.com/avatars/774628881910202378/548e0caa288842504514596856039e9c.png?size=256');
+        .setFooter('White2001#0530™  - Type $help 🎵','https://cdn.discordapp.com/avatars/774628881910202378/548e0caa288842504514596856039e9c.png?size=256');
 }
 
 module.exports = {

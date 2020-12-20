@@ -7,7 +7,7 @@ function noAdmin(id){
         .setColor('#ff4b5c')
         .setDescription(`<@${id}> You're not a Admin`)
         .setTimestamp()
-        .setFooter('Spotiz.xyz™  - Type $help 🎵','https://cdn.discordapp.com/avatars/774628881910202378/548e0caa288842504514596856039e9c.png?size=256');
+        .setFooter('White2001#0530™  - Type $help 🎵','https://cdn.discordapp.com/avatars/774628881910202378/548e0caa288842504514596856039e9c.png?size=256');
 }
 
 function config_menu(data){
@@ -17,7 +17,7 @@ function config_menu(data){
         .addField(`\`${prefix}config transcript <channelID>\` **- To set the transacript Channel**`, `${data.transcript.channel ? `<#${data.transcript.channel}>` : `None`}`)
         .addField( `\`${prefix}config support <roleID1>,<roleID2>,<roleID3>...\` **- Only these roles can access tickets**`, `${data.support.roles ? `${data.support.roles.split(',').map(function(role){return `<@&${role}> `}).join("")}` : `None`}`)
         .setTimestamp()
-        .setFooter('Spotiz.xyz™  - Type $help 🎵','https://cdn.discordapp.com/avatars/774628881910202378/548e0caa288842504514596856039e9c.png?size=256');
+        .setFooter('White2001#0530™  - Type $help 🎵','https://cdn.discordapp.com/avatars/774628881910202378/548e0caa288842504514596856039e9c.png?size=256');
 }
 
 function updated(){
@@ -25,7 +25,7 @@ function updated(){
         .setColor('#bbf1c8')
         .setDescription('Data updated ✅')
         .setTimestamp()
-        .setFooter('Spotiz.xyz™  - Type $help 🎵','https://cdn.discordapp.com/avatars/774628881910202378/548e0caa288842504514596856039e9c.png?size=256');
+        .setFooter('White2001#0530™  - Type $help 🎵','https://cdn.discordapp.com/avatars/774628881910202378/548e0caa288842504514596856039e9c.png?size=256');
 }
 
 function missing(){
@@ -33,7 +33,7 @@ function missing(){
         .setColor('#ff4b5c')
         .setDescription('Argument missing')
         .setTimestamp()
-        .setFooter('Spotiz.xyz™  - Type $help 🎵','https://cdn.discordapp.com/avatars/774628881910202378/548e0caa288842504514596856039e9c.png?size=256');
+        .setFooter('White2001#0530™  - Type $help 🎵','https://cdn.discordapp.com/avatars/774628881910202378/548e0caa288842504514596856039e9c.png?size=256');
 }
 
 module.exports = {

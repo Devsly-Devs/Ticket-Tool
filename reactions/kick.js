@@ -7,7 +7,7 @@ function ticketMessage(id){
         .setTitle('**Kicked From Plan Ticket**')
         .setDescription(`Hello <@${id}> ,\nPlease post these below to get replacement\n\n**1.** Shoppy Email and Spotify Email. (If both are same then just send the email only once)\n**2.** Shoppy Order ID\n**3.** Screenshot of Shoppy where the order ID and Email should be visible\n**4.** Screenshot of Spotify which you got kicked where the Date and Email should be Visible\n**5.** Your Key (Which you used to redeem)\n\nIf Failed to provide this information. Our Support member will close this ticket without any prior notice and you'll not get any replacement`)
         .setTimestamp()
-        .setFooter('Spotiz.xyz™  - Type $help 🎵','https://cdn.discordapp.com/avatars/774628881910202378/548e0caa288842504514596856039e9c.png?size=256');
+        .setFooter('White2001#0530™  - Type $help 🎵','https://cdn.discordapp.com/avatars/774628881910202378/548e0caa288842504514596856039e9c.png?size=256');
 }
 
 function SpamTicket(auID,chID){
@@ -15,7 +15,7 @@ function SpamTicket(auID,chID){
         .setColor('#28df99')
         .setDescription(`<@${auID}> You've Already a Ticket opened at <#${chID}>`)
         .setTimestamp()
-        .setFooter('Spotiz.xyz™  - Type $help 🎵','https://cdn.discordapp.com/avatars/774628881910202378/548e0caa288842504514596856039e9c.png?size=256');
+        .setFooter('White2001#0530™  - Type $help 🎵','https://cdn.discordapp.com/avatars/774628881910202378/548e0caa288842504514596856039e9c.png?size=256');
 }
 
 function kick_ticket(message,user){
