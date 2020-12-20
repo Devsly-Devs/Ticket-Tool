@@ -252,19 +252,17 @@ const validateTicket_Author = (auID,callback)=>{
     const db = connection.db(dbName)
     const collection = db.collection('tickets')
 
-    collection.findOne(
-        {
-            authorID: auID
-        },
-        async function(err,result){
-            if(err){
-                console.log(err)
-            }
-            else{
-                return await callback(result)
-            }
+    collection.find({},
+    {
+        authorID: auID
+    }).toArray(async function(err,result){
+        if(err){
+            console.log(err)
         }
-    )
+        else{
+            return await callback(result)
+        }
+    })
 }
 
 const validateTicketPanel_Guild = (guID,callback)=>{

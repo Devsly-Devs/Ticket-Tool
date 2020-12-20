@@ -18,16 +18,31 @@ function SpamTicket(auID,chID){
         .setFooter('White2001#0530™  - Type $help 🎵','https://cdn.discordapp.com/avatars/774628881910202378/548e0caa288842504514596856039e9c.png?size=256');
 }
 
+function verify_closed(res){
+    var response = {
+        status: false,
+        channel: null
+    }
+    for(data of res){
+        if(data.status !== 'closed'){
+            response.status = true
+            response.channel = data.channelID
+            break
+        }
+    }
+    return response
+}
+
 function resell_ticket(message,user){
     mongo.validateTicket_Author(user.id,async (res)=>{
         try{
-            if(res && res.status !== 'closed'){
-                return user.send(SpamTicket(user.id,res.channelID))
+            status = verify_closed(res)
+            if(status.status === true){
+                return user.send(SpamTicket(user.id,status.channel))
             }
             else{
                 await message.guild.channels.create(`resell-${user.username}`, {
                     type: 'text', 
-                    parent: '779807547993227302',
                     permissionOverwrites: [
                         {
                             id: message.guild.id,

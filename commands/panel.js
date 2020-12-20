@@ -20,7 +20,7 @@ function alreadyDone(id){
 function panelMenu(){
     return new Discord.MessageEmbed()
         .setColor('#bbf1c8')
-        .setTitle('Spotiz Tickets')
+        .setTitle('Spotify Ticket')
         .setDescription('Please React to this ticket which justifies your problem')
         .addField('General Questions','❓\n',true)
         .addField('\u200B','\u200B',true)

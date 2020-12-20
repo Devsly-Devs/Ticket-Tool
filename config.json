@@ -3,5 +3,5 @@
     "token":"bot-token",
     "url":"mongo-db-url",
     "dbName":"db-name",
-    "paypal-email": "your-paypal-email"
+    "paypal_email": "your-paypal-email"
 }
