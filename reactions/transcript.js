@@ -42,8 +42,8 @@ function create_transcript(message,user){
                         chat.chatExport(message.channel.id,user.username).then(file=>{
                             const embed = new Discord.MessageEmbed()
                                 .setColor('#bbf1c8')
-                                .setTitle(`Transcript of ${user.tag}`)
-                                .addField('Ticket Owner',`<@${user.id}>`,true)
+                                .setTitle(`Transcript executed by ${user.tag}`)
+                                .addField('Ticket Owner',`<@${res.authorID}>`,true)
                                 .addField('Ticket Name',`${message.channel.name}`,true)
                                 .setTimestamp()
                                 .setFooter('White2001#0530™  - Type $help 🎵','https://cdn.discordapp.com/avatars/774628881910202378/548e0caa288842504514596856039e9c.png?size=256');
