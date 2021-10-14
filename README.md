@@ -8,6 +8,7 @@ In Future, we may add different versions / Releases to it.**
 * You need to have [Node js V12.0+](https://nodejs.org/en/) installed
 * You need to have [mongoDB service](https://www.mongodb.com/try/download/community) to be installed
 * To install dependencies, just write `npm install` , And it'll start installing all dependencies
+* You need to have [.NET Core 3.1 Runtime](https://dotnet.microsoft.com/download/dotnet/3.1/runtime?utm_source=getdotnetcore&utm_medium=referral) to be installed.
 
 **Now,** 
 * Go to config.json file and update your `Bot-Token` 
@@ -17,6 +18,7 @@ In Future, we may add different versions / Releases to it.**
 ## Start
 * To start the bot, open the command prompt in the root directory. Then write, `node bot.js`
 * After successfully started. Just run `$setup` Command to setup DB and Guild
+* After the setup process is finished, run the `$config transcript <channelID>` to define your transcript channel. 
 
 ## Features
 It has all features from creating a ticket to transcript.
