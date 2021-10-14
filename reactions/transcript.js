@@ -27,7 +27,7 @@ function transcripting(){
 function Wrong(auID){
     return new Discord.MessageEmbed()
         .setColor('#c70039')
-        .setDescription(`<@${auID}> Something Went wrong. Please Try again`)
+        .setDescription(`<@${auID}> Something Went wrong. Ensure you have defined the proper transcript channel with $config transcript <channelID> command.`)
         .setTimestamp()
         .setFooter('White2001#0530™  - Type $help 🎵','https://cdn.discordapp.com/avatars/774628881910202378/548e0caa288842504514596856039e9c.png?size=256');
 }
@@ -57,7 +57,9 @@ function create_transcript(message,user){
                             }).catch(err=>{
                                 console.log(err)
                                 return msg.edit(Wrong(user.id))
-                            })
+                            }).catch(err => {
+                            console.log(err)
+                            });
                         })
                     })
                     
