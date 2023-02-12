@@ -16,9 +16,13 @@ In Future, we may add different versions / Releases to it.**
 * `DB-Name` You can give anything you want. but make sure the Db-Name matches with the DB you created in mongo.
 
 ## Start
-* To start the bot, open the command prompt in the root directory. Then write, `node bot.js`
-* After successfully started. Just run `$setup` Command to setup DB and Guild
-* After the setup process is finished, run the `$config transcript <channelID>` to define your transcript channel. 
+### Bare-bones
+  * To start the bot, open the command prompt in the root directory. Then write, `node bot.js`
+  * After successfully started. Just run `$setup` Command to setup DB and Guild
+  * After the setup process is finished, run the `$config transcript <channelID>` to define your transcript channel. 
+### Using Docker-compose!
+  * Skip the Setup section but don't forget to edit config.js file
+  * Simply run the command `docker-compose up -d` inside the root directory!
 
 ## Features
 It has all features from creating a ticket to transcript.
