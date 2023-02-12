@@ -21,7 +21,7 @@ In Future, we may add different versions / Releases to it.**
   * After successfully started. Just run `$setup` Command to setup DB and Guild
   * After the setup process is finished, run the `$config transcript <channelID>` to define your transcript channel. 
 ### Using Docker-compose!
-  * Skip the Setup section
+  * Skip the Setup section but don't forget to edit config.js file
   * Simply run the command `docker-compose up -d` inside the root directory!
 
 ## Features
